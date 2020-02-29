@@ -1,0 +1,20 @@
+{
+  "name": "pinboard",
+  "version": "1.0.0",
+  "description": "for pinning ideas",
+  "main": "main.js",
+  "bin": "main.js",
+  "scripts": {
+    "test": "electron .",
+    "pack-mac": "electron-packager . --platform=darwin"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^7.1.7",
+    "pkg": "^4.4.3"
+  },
+  "devDependencies": {
+    "electron-packager": "^14.2.1"
+  }
+}

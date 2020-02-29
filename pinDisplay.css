@@ -1,0 +1,42 @@
+#title{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'system-ui';
+    margin-bottom: 5vh;
+}
+#description{
+    font-size: 20px;
+    font-family: 'system-ui';
+    margin-left: 10px;
+    position: relative;
+    top: 10px;
+    overflow: scroll;
+}
+#outline{
+    margin-left: 5%;
+    width: 90%;
+    height: 50vh;
+    outline: 2px solid black;
+}
+
+#delete{
+    font-size: 40px;
+    text-decoration: none;
+    background-color: #4CAF50; 
+    margin: 5%;
+    margin-top: 15px;
+    padding: 20px;
+    width: 90%;
+    outline: 3px solid #4CAF50;
+    outline-offset: -1px;
+    height: 30vh;
+    
+}
+
+#delete:hover{
+    color: white;
+}
+
+html{
+    overflow: hidden;
+}
